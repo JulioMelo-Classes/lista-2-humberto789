@@ -1,0 +1,3 @@
+/home/runner/Lista-2-LPI/lista-2-humberto789/rotate/build/CMakeFiles/rebuild_cache.dir
+/home/runner/Lista-2-LPI/lista-2-humberto789/rotate/build/CMakeFiles/run_tests.dir
+/home/runner/Lista-2-LPI/lista-2-humberto789/rotate/build/CMakeFiles/edit_cache.dir

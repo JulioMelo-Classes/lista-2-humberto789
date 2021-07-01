@@ -13,6 +13,9 @@ namespace graal {
 /*! 
  * TODO: documentação no estilo doxygen
  */
+ /*
+ 80%
+ */
 template<class InputIt1, class InputIt2, class Equal>
 bool equal(InputIt1 first1, InputIt1 last1, InputIt2 first2, Equal eq)
 {
@@ -21,7 +24,7 @@ bool equal(InputIt1 first1, InputIt1 last1, InputIt2 first2, Equal eq)
     InputIt1 valor_range = first2 + (last1 - first1);
 
     while(first2+contador != valor_range){
-      if(!eq(*(first1+contador), *(first2+contador))){
+      if(!eq(*(first1+contador), *(first2+contador))){ //aqui vc já poderia dar return false
         resultado=false;
       }
       contador++;

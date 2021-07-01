@@ -13,6 +13,9 @@ namespace graal {
 /*! 
  * TODO: documentação no estilo doxygen
  */
+ /*
+ 80%
+ */
 template<class InputIt, class UnaryPredicate>
 InputIt find_if(InputIt first, InputIt last, UnaryPredicate p)
 {

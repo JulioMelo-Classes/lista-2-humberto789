@@ -23,6 +23,9 @@ namespace graal {
  * @return Um std::pair contendo o menor e maior elemento, nesta ordem
  *
  */
+ /*
+ 60%
+ */
 template <typename Itr, typename Compare >
   std::pair<Itr, Itr> minmax( Itr first, Itr last, Compare cmp )
   {
@@ -30,10 +33,10 @@ template <typename Itr, typename Compare >
       Itr menor = first;
 
       for(Itr i = first; i != last; i++){
-        if(cmp(*maior, *i)){
+        if(cmp(*maior, *i)){ //aqui não está, pois quando maior é igual a i vc tb precisaria atualizar a posição
           maior = i;
         }
-        if(cmp(*i, *menor)){
+        if(cmp(*i, *menor)){ //aqui está ok
           menor = i;
         }
       }
